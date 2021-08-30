@@ -1,4 +1,4 @@
-# VSCode/GIT Setep
+# VSCode/GIT Setup
 
 * Application - Git
   * https://git-scm.com/
@@ -56,3 +56,13 @@ Remove-Item $Dest -Force -Confirm:$False
 
 $data | Add-Content -Path $Dest
   
+# TO USE THE TOOL
+* psioniq File Header
+  * push ctrl+alt+H and then ctrl+alt+h
+* Todo Tree
+  * Write one of this tags to get it to popup in Todo Tree
+    * #BUG
+    * #FIXME
+    * #TODO
+    * #INFO
+    * #DONE
