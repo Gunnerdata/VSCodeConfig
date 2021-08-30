@@ -1,1 +1,162 @@
-#123
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "todo-tree.tree.showScanModeButton": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "FIXME",
+        "TODO",
+        "INFO",
+        "DONE",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.highlights.defaultHighlight": {
+        "icon": "alert",
+        "type": "text",
+        "foreground": "red",
+        "background": "white",
+        "opacity": 50,
+        "iconColour": "yellow"
+    },
+    "todo-tree.highlights.customHighlight": {
+    
+        "TODO": {
+            "icon": "question",
+            "iconColour": "purple",
+            "type": "text",
+            "foreground": "white",
+            "background": "purple",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "icon":"flame",
+            "iconColour": "orange",
+            "type": "text",
+            "foreground": "white",
+            "background": "orange",
+            "gutterIcon": true
+        },
+        "BUG": {
+            "icon": "bug",
+            "iconColour": "red",
+            "type": "text",
+            "foreground": "white",
+            "background": "red",
+            "gutterIcon": true
+        },
+        "INFO": {
+            "icon": "info",
+            "iconColour": "blue",
+            "type": "text",
+            "foreground": "white",
+            "background": "blue",
+            "gutterIcon": true
+        },
+        "DONE": {
+            "icon": "check",
+            "iconColour": "green",
+            "type": "text",
+            "foreground": "white",
+            "background": "green",
+            "gutterIcon": true
+        }
+    },
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "psi-header.config": {
+        "forceToTop": true,
+        "blankLinesAfter": 4,
+        "license": "Custom"
+    }, 
+    "psi-header.lang-config": [
+        {
+        "language": "powershell",
+        "begin": "",
+        "end": "",
+        "prefix": "",
+        }
+    ],
+    "psi-header.templates": [
+        {
+            "language": "powershell",
+            "template": [
+                "function <<filenamebase>> { ",
+                "",
+                "   <#",
+                "   .SYNOPSIS",
+                "       < A brief description of the function or script.>",
+                "   .DESCRIPTION",
+                "       <A longer description.>",
+                "   .NOTES",
+                "       <Note for the Function>",
+                "   .PARAMETER <Parameter_NameA>",
+                "       <Brief description of parameter input required. Repeat this attribute if required>",
+                "   .PARAMETER <Parameter_NameB>",
+                "       <Brief description of parameter input required. Repeat this attribute if required>",
+                "   .PARAMETER <Parameter_NameC>",
+                "       <Brief description of parameter input required. Repeat this attribute if required>",
+                "   .INPUTS",
+                "       <Description of objects that can be piped to the script.>",
+                "   .OUTPUTS",
+                "       <Description of objects that are output by the script.>",
+                "   .EXAMPLE",
+                "       <Example of how to run the script.>",
+                "   .EXAMPLE",
+                "       <Example of how to run the script.>",
+                "   .EXAMPLE",
+                "       <Example of how to run the script.>",
+                "   #>",
+                "",             
+                "   [CmdletBinding()]",
+                "   param (",
+                "       [Parameter( ",
+                "           ValueFromPipeline=$true,",
+                "           Mandatory=$false,",
+                "           ValueFromPipelineByPropertyName=$true,",
+                "           ParameterSetName=\"PARAMETER_NAME\",",
+                "           HelpMessage=\"Enter a month or * for all\"",
+                "       )]",
+                "       [Alias('')] ",
+                "       [string]$Parameter_NameA= '*',",                
+                "       [Parameter( ",
+                "           ValueFromPipeline=$true,",
+                "           Mandatory=$false,",
+                "           ValueFromPipelineByPropertyName=$true,",
+                "           ParameterSetName=\"PARAMETER_NAME\",",
+                "           HelpMessage=\"Enter a month or * for all\"",
+                "       )]",
+                "       [Alias('')] ",
+                "       [string]$Parameter_NameB= '*',",             
+                "       [Parameter( ",
+                "           ValueFromPipeline=$true,",
+                "           Mandatory=$false,",
+                "           ValueFromPipelineByPropertyName=$true,",
+                "           ParameterSetName=\"PARAMETER_NAME\",",
+                "           HelpMessage=\"Enter a month or * for all\"",
+                "       )]",
+                "       [Alias('')] ",
+                "       [string]$Parameter_NameC= '*'",
+                "   )",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "}",
+                "",
+            ]
+        },
+    ],
+    "git.confirmSync": false,
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "git.enableSmartCommit": true,
+    "git-assistant.branchWarn": "disabled",
+    "todo-tree.filtering.scopes": [
+    
+    ]
+}
