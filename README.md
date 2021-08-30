@@ -1,4 +1,4 @@
-# VSCode/GIT Step
+# VSCode/GIT Setep
 
 * Application - Git
   * https://git-scm.com/
