@@ -42,6 +42,13 @@ Install-Module -Name Pester -Force -SkipPublisherCheck
 
 ## Copy settings.json to local computer
 
+$source = "https://raw.githubusercontent.com/Gunnerdata/VSCodeConfig/main/settings.json"
+
+$data = (New-Object System.Net.WebClient).DownloadString($source)
+
+$Dest = "$($env:APPDATA)\Code\User\settings.json"
+
+$data | Out-File -FilePath $Dest
 
 
   
