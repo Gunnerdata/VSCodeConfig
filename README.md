@@ -50,9 +50,9 @@ $Dest = "$($env:APPDATA)\Code\User\settings.json"
 
 if (Test-Path $Dest) {
 
-  Remove-Item $Dest -Force -Confirm:$False
-  
+Remove-Item $Dest -Force -Confirm:$False
+
 }
 
-$data | Out-File -FilePath $Dest
+$data | Add-Content -Path $Dest
   
