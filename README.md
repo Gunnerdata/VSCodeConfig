@@ -15,6 +15,8 @@
         * psioniq.psi-header
     * Todo Tree
         * gruntfuggly.todo-tree
+    * GitHub Theme
+	      * GitHub.github-vscode-theme
 
 * PS Modules
   * Pester
@@ -34,7 +36,7 @@ Install-Script -Name install-gitscm
 
 install-gitscm
 
-Install-VSCode -AdditionalExtensions @("ivanhofer.git-assistant","ms-vscode.powershell","psioniq.psi-header","gruntfuggly.todo-tree")
+Install-VSCode -AdditionalExtensions @("ivanhofer.git-assistant","ms-vscode.powershell","psioniq.psi-header","gruntfuggly.todo-tree","GitHub.github-vscode-theme")
 
 ## Install PS Modules
 
