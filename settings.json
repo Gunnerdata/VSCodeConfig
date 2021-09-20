@@ -159,5 +159,9 @@
     "todo-tree.filtering.scopes": [
     
     ],
-    "workbench.colorTheme": "GitHub Dark Dimmed"
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "html.format.contentUnformatted": "",
+    "powershell.integratedConsole.forceClearScrollbackBuffer": true,
+    "editor.fontLigatures": null
 }
+
